@@ -1,0 +1,5 @@
+name: Elevator
+version: '${project.version}'
+main: xyz.artuto.elevator.Elevator
+api-version: 1.17
+authors: [ Artuto ]
