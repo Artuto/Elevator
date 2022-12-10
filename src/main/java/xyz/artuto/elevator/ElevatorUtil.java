@@ -42,7 +42,7 @@ public class ElevatorUtil
                 if(y < world.getMinHeight())
                     return -1;
 
-                distance = y + 1;
+                distance = y - world.getMinHeight();
                 break;
             }
             case UP:
